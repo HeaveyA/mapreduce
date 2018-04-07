@@ -1,4 +1,3 @@
-.
 #!/usr/bin/env python
 import sys
  
@@ -27,6 +26,3 @@ for line in sys.stdin:
 # Note: they are unsorted
 for word in word2count.keys():
     print '%s\t%s'% ( word, word2count[word] )
-
-
-.
