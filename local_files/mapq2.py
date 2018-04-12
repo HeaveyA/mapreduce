@@ -2,9 +2,8 @@
 import sys
 
 for line in sys.stdin:
-    line = line.strip()
-    data = line[0:5]	
-    data2 = map(int,data)
-    for i in data2:
-        print '%d' % (i)
+    line = line.strip()	
+    line = map(int,line)
+    for i in line:
+        print '%d%d' % (i)
 
