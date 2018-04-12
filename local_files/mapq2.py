@@ -5,5 +5,5 @@ for line in sys.stdin:
     line = line.strip()
     data = line.strip()	
     for i in data:
-        print '%s\t%s' % (i)
+        print '%d' % (i)
 
