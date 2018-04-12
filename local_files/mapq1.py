@@ -7,4 +7,4 @@ for line in sys.stdin:
     def map(key, value):
         emit(1, key);
 
-#print '%s\t%s' % (word, "1")
+print '%s\t%s' % (key, "1")
