@@ -4,7 +4,6 @@ import sys
 for line in sys.stdin:
     line = line.strip()
     data = line.strip()	
-    for data in wordlist:
-        print '%s\t%s' % (data)
+    for i in data:
+        print '%s\t%s' % (i)
 
-print '%s\t%s' % (data)
