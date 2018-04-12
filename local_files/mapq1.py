@@ -4,7 +4,7 @@ import sys
 for line in sys.stdin:
     value = line.strip()
 
-    def map(key, value)
+    def map(key, value):
         emit(1, key);
 
 #print '%s\t%s' % (word, "1")
