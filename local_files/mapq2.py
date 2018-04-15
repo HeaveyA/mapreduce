@@ -2,8 +2,7 @@
 import sys
 
 for line in sys.stdin:
-    line = line.strip()
-    data = line[0:5]	
-    for i in data:
+    line = line.strip()	
+    for i in line:
         print '%s' % (i)
 
