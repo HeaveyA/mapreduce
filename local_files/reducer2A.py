@@ -5,9 +5,9 @@ import sys
 
 for line in sys.stdin: 
     keyval=line.strip().split("\t")
-    key,val=(keyval[0],keyval[0])
+    keyval=keyval[0]
     global_max = 0
-    for value in val:
+    for value in keyval:
             if (value > global_max):
                 global_max = value
             print(global_max)
