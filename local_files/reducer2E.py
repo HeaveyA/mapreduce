@@ -7,7 +7,7 @@ last_key = None
 max_val = None 
 for line in sys.stdin:
     keyval = line.strip().split('\t')
-    if key != last_key:
+    if keyval != last_key:
         print('%s\t%s' % (last_key, max_val))
         max_val = None
     last_key = keyval
