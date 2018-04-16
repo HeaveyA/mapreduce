@@ -2,5 +2,5 @@
 import sys
 
 for line in sys.stdin:
-     cont, num = city_num_line(line)
+     cont, num = line.strip().split("\t")
      print('%s\t%s' % (cont, num))
