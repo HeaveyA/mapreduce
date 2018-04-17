@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 
-import sys
 from __future__ import division
+import sys
+
 
 num = []
 for line in sys.stdin:
