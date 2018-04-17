@@ -6,7 +6,7 @@ import sys
 
 ave = []
 for line in sys.stdin:
-    value = line.strip().split('\t')
+    value = [int(n) for n in line.strip().split('\t')]
     sum = sum(value)
     count = len(value)
     ave = (sum/count)
