@@ -7,7 +7,7 @@ count = None
 ave = None
 for line in sys.stdin:
     value = line.strip().split('\t')
-    sum += value
-    count += 1
+    sum = sum(value)
+    count = len(value)
     ave = (sum/count)
 print (ave)
