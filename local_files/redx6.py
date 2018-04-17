@@ -2,9 +2,9 @@
 
 import sys
 
-sum = None
-count = None
-ave = None
+
+
+ave = []
 for line in sys.stdin:
     value = line.strip().split('\t')
     sum = sum(value)
