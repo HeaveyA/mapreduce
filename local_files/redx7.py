@@ -5,5 +5,5 @@ import sys
 value=[]
 for line in sys.stdin:
     value = line(set(value))
-print ('%s\t' % (value))
+print (int(value))
 
