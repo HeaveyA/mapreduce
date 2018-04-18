@@ -6,4 +6,4 @@ distinct_list = []
 for each in sys.stdin:
     if each not in distinct_list:
         distinct_list.append(each)
-print(distinct_list)
+print('%s\t' % (distinct_list))
