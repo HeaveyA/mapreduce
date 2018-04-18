@@ -3,7 +3,7 @@
 import sys
  
 distinct_list = []
-for each in sys.stdin:
-    if each not in distinct_list:
-        distinct_list.append(each)
-print('%s\t' % (distinct_list))
+for line in sys.stdin:
+    if line not in unique_list:
+        unique_list.append(line)
+print(distinct_list)
