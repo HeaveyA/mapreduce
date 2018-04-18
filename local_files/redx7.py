@@ -4,6 +4,6 @@ import sys
  
 value=[]
 for line in sys.stdin:
-    value = set(line)
+    value = line(set(value))
 print (value)
 
