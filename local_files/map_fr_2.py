@@ -15,7 +15,7 @@ def mapper1():
                 yield (friend_i + "," + friend_j, 1)
 
 def main():
-    mapper()
+    mapper1()
     sys.stdin = sys.__stdin__
-id __name__ == "__main__"
+if __name__ == "__main__":
     main()
