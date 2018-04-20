@@ -11,4 +11,4 @@ for line in sys.stdin:
         for friend_j in friend_ids:
             if friend_i == friend_j:
                 continue
-            print '%s%s\t%s' % (friend_i,friend_j, "1")
+            print '%s,%s\t%s' % (friend_i,friend_j, "1")
