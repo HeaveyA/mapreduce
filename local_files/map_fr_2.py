@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import sys
 
-def mapper1(self, _, line):
+def mapper1():
     for line in sys.stdin:
         user_id, friends = line.split("\t")
         friend_ids = friends.split(",")
@@ -13,3 +13,9 @@ def mapper1(self, _, line):
                 if friend_i == friend_j:
                     continue
                 yield (friend_i + "," + friend_j, 1)
+
+def main():
+    mapper()
+    sys.stdin = sys.__stdin__
+id __name__ == "__main__"
+    main()
