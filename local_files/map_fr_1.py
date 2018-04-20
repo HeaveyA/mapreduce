@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+import sys
+
 def mapper1(self, _, line):
     user_id, friends = line.split("\t")
     friend_ids = friends.split(",")
