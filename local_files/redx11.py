@@ -2,6 +2,8 @@
 
 import sys
 
+#Part C: Shuffling through the key, pairs from the mapper phase and using .append to find the distinct integers.
+
 unique_list = []
 for line in sys.stdin:
 	value = line.strip().split('\t')

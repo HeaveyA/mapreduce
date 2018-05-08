@@ -1,14 +1,18 @@
 #!/usr/bin/env python
+
 import sys
 
-last_key = None
-max_val = None 
+'''Part A : First, the output from the map phase is sorted and shuffled in the key and val groups and then the key is assigned to 
+   finalkey and val to maxval to produce the maximum value.'''
+
+finalkey = None
+maxval = None 
 for line in sys.stdin:
     key, val = line.strip().split('\t')
-    if key != last_key:
-        print('%s\t%s' % (last_key, max_val))
-        max_val = None
-    last_key = key
-    max_val = max(val, max_val)
-if last_key:
-     print('%s\t%s' % (last_key, max_val))
+    if key != finalkey:
+        print('%s\t%s' % (finalkey, maxval))
+        maxval = None
+    finalkey = key
+    maxval = max(val, maxval)
+if finalkey:
+     print('%s\t%s' % (finalkey, maxval))
